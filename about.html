@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/site.css">
+    <header th:fragment="siteHeader">
+        <nav>
+            <ul>
+                <li><a th:href="@{/index}">Home</a></li>
+                <li><a th:href="@{/projects}">Projects</a></li>
+                <li><a th:href="@{/about}">About</a></li>
+                <li><a th:href="@{/contact}">Contact</a></li>
+                <li><a th:href="https://resumenrobinette.tiiny.site/">Download Resume</a></li>
+                <!-- <li><a th:href="@{/editpet}">Edit Pet</a></li> -->
+            </ul>
+        </nav>
+    </header>
     <title>Nick's Profile</title>
 </head>
 <body>
-    <div insert="fragments/header :: siteHeader"></div>
         <h1>I am a motivated hard working individual looking to become a Jr Developer</h1>
-        <div insert="fragments/footer :: siteFooter"></div>
 </body>
 </html>
