@@ -21,10 +21,11 @@ font-size: 14px;
 
 header{
     background-color: lightyellow;
-    color: black;
+    color: lightslategray;
     padding: 20px 0; 
     text-align: center;
     min-height: 50px;
+    text-align: center;
 }
 
 header nav ul{
@@ -51,5 +52,5 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
 }
