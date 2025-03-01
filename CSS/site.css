@@ -1,8 +1,8 @@
 *{
-    background-color: lightsalmon;
+    background-color: lightsteelblue;
 }
 
-footer{
+/* footer{
     background-color: darkgrey;
     color: black;
     text-align: center;
@@ -11,22 +11,22 @@ footer{
     width: 100%;
     min-height: 50px;
     
-}
-
+} */
+/* 
 footer p {
 margin: 0;
 font-size: 14px;
 
-}
+} */
 
-header{
+/* header{
     background-color: lightyellow;
     color: lightslategray;
     padding: 20px 0; 
     text-align: center;
     min-height: 50px;
     text-align: center;
-}
+} */
 
 header nav ul{
     list-style: none;
