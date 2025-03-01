@@ -2,6 +2,8 @@
     background-color: lightsteelblue;
 }
 
+
+
 /* footer{
     background-color: darkgrey;
     color: black;
@@ -40,17 +42,22 @@ header nav ul li{
     margin-right: 15px;
 }
 
-header nav ul li a:hover{
+/* header nav ul li a:hover{
     background-color: cornsilk;
-}
+} */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: white;
+    background-color: black;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+.container {
+    display: grid;
+    border: 10px;
+    grid-template-columns: auto;
+  }
