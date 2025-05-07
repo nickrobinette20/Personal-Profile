@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/site.css">
-    <header th:fragment="siteHeader">
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li><a target="_blank" href="https://resumenrobinette.tiiny.site/">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <title>Nick's Profile</title>
+    <title class="title">Nick's Profile</title>
 </head>
 <body>
-        <h1>Projects</h1>
-        <div class="container">
-            <div>
-                <div>Paws & Claws UI Pet Shelter</div>
-                <img src="https://www.flaticon.com/free-icons/pet-care" >
+    <div class="page">
+        <h1 class="sub_title">Projects</h1>
+        <div class="projects">
+            <div class="project_block">
+                <div class="project_title">Paws & Claws UI and API</div>
+                <img class="project_image" src="Assets/animal-care.png" >
+                <p class="discription">This is a project that allows a user to create, view, edit, and delete virtual pets. This application consists of an API and a User Interface. After you create a Virtual pet you can interact with them in a multitude of ways, but beware you must keep them healthy or you might have to create another pet!
+                </p>
+                <p>This project utilized HTML, CSS, Java, and Javascript</p>
             </div>
-            <div>
-                <div>Virtual Pets API</div>
-                <img src="https://www.flaticon.com/free-icons/pets" >
+            <div class="project_block">
+                <div class="project_title">Tic Tac Toe</div>
+                <img class="project_image" src="Assets/strategic-plan.png" >
+                <p class="discription">This is your standard Tic Tac Toe game that I created. In its current iteration it only allows for one user to play. </p>
+                <p>This project utilized HTML, CSS, and Javascript</p>
             </div>
-            <div>
-                <div>Currency Converter</div>
-                <img src="https://www.flaticon.com/free-icons/currency">
+            <div class="project_block">
+                <div class="project_title">Donut Clicker</div>
+                <img class="project_image" src="Assets/donut.png">
+                <p class="discription">This Game is similar to the well known game "Cookie Clicker". The  goal is to click on a donut to gain currency. Once you gain enough you are able to purchase things that allow you to click faster or automate the process.</p>
+                <p>This project utilized HTML, CSS, and Javascript</p>
             </div>
         </div>
+    </div>
 </body>
 </html>
